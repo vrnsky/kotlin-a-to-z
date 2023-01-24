@@ -12,7 +12,7 @@ This chapter give clear understanding about how to create Kotlin classes, constr
 Also about access modifiers and so on
 
 ### CI/CD
-For CI/CD this project use GitHub Actions. All pipelines placed at `.github/workflow` directory 
+For CI/CD this project use GitHub Actions. All pipelines placed at [.github/workflow](./.github/workflows) directory 
 
 ### Contact
 [LinkedIn](https://www.linkedin.com/in/vrnsky/)  
