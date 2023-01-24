@@ -7,7 +7,7 @@ Cover a basic operations in Kotlin like loops, data types and functions or metho
 Cover an extensions of Java classes without its modification and basic operations with collections
 
 ### CI/CD
-At the current moment no presence of CI/CD at this repo. So look at provided examples on your own risk
+For CI/CD this project have utilize GitHub actions. All pipelines placed at `.github/workflow` directory 
 
 ### Contact
 [LinkedIn](https://www.linkedin.com/in/vrnsky/)  
