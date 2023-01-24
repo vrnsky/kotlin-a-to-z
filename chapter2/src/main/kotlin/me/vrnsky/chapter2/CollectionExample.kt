@@ -1,4 +1,4 @@
-package chapter2
+package me.vrnsky.chapter2
 
 fun main() {
     val exampleOfSet = setOf(1, 2, 3)
@@ -13,4 +13,5 @@ fun main() {
     val exampleOfMap = mapOf(1 to "One", 2 to "Two", 3 to "Three")
     val (a, b) = 1 to "Space"
     println("$a $b")
+    println(exampleOfMap[1])
 }

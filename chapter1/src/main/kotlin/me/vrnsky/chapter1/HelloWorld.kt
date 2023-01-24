@@ -1,4 +1,4 @@
-package chapter1
+package me.vrnsky.chapter1
 
 fun main() {
     val input = readln();

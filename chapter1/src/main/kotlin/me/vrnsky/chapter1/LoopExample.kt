@@ -1,4 +1,4 @@
-package chapter1
+package me.vrnsky.chapter1
 
 fun main() {
     for (i in 0..10) {

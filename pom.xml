@@ -6,43 +6,25 @@
     <artifactId>kotlin-a-to-z</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>kotlin-a-to-z</name>
+    <packaging>pom</packaging>
 
     <properties>
         <kotlin.version>1.8.0</kotlin.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-stdlib</artifactId>
-            <version>${kotlin.version}</version>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>chapter1</module>
+        <module>chapter2</module>
+    </modules>
 
-    <build>
-        <plugins>
-            <plugin>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
                 <groupId>org.jetbrains.kotlin</groupId>
-                <artifactId>kotlin-maven-plugin</artifactId>
+                <artifactId>kotlin-stdlib</artifactId>
                 <version>${kotlin.version}</version>
-
-                <executions>
-                    <execution>
-                        <id>compile</id>
-                        <goals>
-                            <goal>compile</goal>
-                        </goals>
-                    </execution>
-
-                    <execution>
-                        <id>test-compile</id>
-                        <goals>
-                            <goal>test-compile</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

@@ -1,4 +1,4 @@
-package chapter1
+package me.vrnsky.chapter1
 
 class Person(
     val name: String,
