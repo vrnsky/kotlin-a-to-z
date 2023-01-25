@@ -11,6 +11,10 @@ Cover an extensions of Java classes without its modification and basic operation
 This chapter give clear understanding about how to create Kotlin classes, constructors
 Also about access modifiers and so on
 
+### [Chapter4](./chapter4)
+At the chapter 4 authors have more detailed explanation of lambdas in Kotlin. 
+The few interesting methods of lambdas - `.with, .apply, .also`
+
 ### CI/CD
 For CI/CD this project use GitHub Actions. All pipelines placed at [.github/workflow](./.github/workflows) directory 
 
