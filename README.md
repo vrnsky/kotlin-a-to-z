@@ -20,6 +20,9 @@ This chapter describes what methods Kotlin offers to work with collections.
 Description of how `.windowed()` and `.chuncked()` works
 Also cover lazy executions on collections by `.asSequence()`
 
+### [Other names]
+Other way named modules may contain some example of more codes like console [Tic Tac Toe Game](./tictactoe)
+
 ### CI/CD
 For CI/CD this project use GitHub Actions. All pipelines placed at [.github/workflow](./.github/workflows) directory 
 
