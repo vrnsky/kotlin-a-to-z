@@ -1,3 +1,4 @@
+[![Build Status](https://github.com/vrnsky/kotlin-a-to-z/actions/workflows/mvn-package.yml/badge.svg?branch=main)](https://github.com/vrnsky/kotlin-a-to-z/actions/workflows/mvn-package.yml)
 # kotlin-a-to-z
 It is my journey from A to Z of Kotlin
 
