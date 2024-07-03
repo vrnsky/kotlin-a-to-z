@@ -9,16 +9,11 @@
     <packaging>pom</packaging>
 
     <properties>
-        <kotlin.version>1.8.0</kotlin.version>
+        <kotlin.version>1.9.23</kotlin.version>
     </properties>
 
     <modules>
         <module>chapter1</module>
-        <module>chapter2</module>
-        <module>chapter3</module>
-        <module>chapter4</module>
-        <module>chapter5</module>
-        <module>tictactoe</module>
     </modules>
 
     <dependencyManagement>
