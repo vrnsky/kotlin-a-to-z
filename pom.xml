@@ -5,7 +5,6 @@
     <groupId>me.vrnsky</groupId>
     <artifactId>kotlin-a-to-z</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kotlin-a-to-z</name>
     <packaging>pom</packaging>
 
     <properties>
@@ -14,6 +13,7 @@
 
     <modules>
         <module>chapter1</module>
+        <module>chapter2</module>
     </modules>
 
     <dependencyManagement>
@@ -25,5 +25,32 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib-jdk8</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-test</artifactId>
+            <version>${kotlin.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.3</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.10.3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
 
 </project>

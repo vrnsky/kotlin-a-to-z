@@ -5,8 +5,8 @@ It is my journey from A to Z of Kotlin
 ### [Chapter 1](./chapter1)
 Cover a basic operations in Kotlin like loops, data types and functions or methods
 
-### Other names
-Other way named modules may contain some example of more codes like console [Tic Tac Toe Game](./tictactoe)
+### [Chapter 2](./chapter2)
+Cover a basics of OOP principles such as inheritance, polymorphism, abstraction, encapsulation
 
 ### CI/CD
 For CI/CD this project use GitHub Actions. All pipelines placed at [.github/workflow](./.github/workflows) directory 
